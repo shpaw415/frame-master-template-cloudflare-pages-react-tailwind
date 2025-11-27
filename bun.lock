@@ -7,7 +7,7 @@
       "dependencies": {
         "@tailwindcss/cli": "^4.1.17",
         "frame-master": "^2.0.5",
-        "frame-master-plugin-apply-react": "0.1.4",
+        "frame-master-plugin-apply-react": "0.1.5",
         "frame-master-plugin-react-to-html": "0.1.4",
         "frame-master-plugin-tailwind": "1.0.3",
         "react": "^19.0.0",
@@ -260,7 +260,7 @@
 
     "frame-master": ["frame-master@2.0.5", "", { "dependencies": { "@shpaw415/webtoken": "^1.0.0", "chalk": "^5.6.2", "commander": "^14.0.2", "react": "19.2.0", "react-dom": "19.2.0" }, "peerDependencies": { "typescript": "^5.9.3" }, "bin": { "frame-master": "bin/index.ts" } }, "sha512-wsetGJYZlft2whzw0g3MIv/Ehn00+K+PNPE/x+cbBvSDwIijeinrs+uc5JTKDGhD2sxfaT6w4r51erMBLXNRZw=="],
 
-    "frame-master-plugin-apply-react": ["frame-master-plugin-apply-react@0.1.4", "", { "peerDependencies": { "frame-master": "^2.0.4", "react": ">=18.0.0 <20.0.0", "react-dom": ">=18.0.0 <20.0.0", "typescript": "^5.9.3" } }, "sha512-5DqYgXLcUmDdVKoBZ9h0F2P6F7hhms5MRbDNSx/n9np0ofERBSp8DFXweWshddrCJTVaIjuhekFahd4W8mYbkQ=="],
+    "frame-master-plugin-apply-react": ["frame-master-plugin-apply-react@0.1.5", "", { "peerDependencies": { "frame-master": "^2.0.4", "react": ">=18.0.0 <20.0.0", "react-dom": ">=18.0.0 <20.0.0", "typescript": "^5.9.3" } }, "sha512-I8ApJyt2R7IXmvWSG2idHAbn7jK9G+YbNqJ2DkMALd3C8ki1/lya4xxj2kZ2cOre5oCN8uukKzW2aD7BdY6D4Q=="],
 
     "frame-master-plugin-react-to-html": ["frame-master-plugin-react-to-html@0.1.4", "", { "peerDependencies": { "frame-master": "^2.0.5", "react": ">=18.0.0 <20.0.0", "react-dom": ">=18.0.0 <20.0.0", "typescript": "^5" } }, "sha512-ki5QrfSMHPRj56GnTlnTxI6ma23rHdESUEJV5+w5rK4MDRsYOcJY9I2c1Gdny/zmG9PaXFLEC9cvvaEIFvGkVg=="],
 
