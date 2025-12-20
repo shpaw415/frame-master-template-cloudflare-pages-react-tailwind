@@ -20,6 +20,10 @@ export default {
     TailwindPlugin({
       inputFile: "static/tailwind.css",
       outputFile: "static/style.css",
+      options: {
+        autoInjectInBuild: true,
+        runtime: "bunx",
+      },
     }),
     {
       name: "static-assets",
@@ -30,7 +34,6 @@ export default {
             asset: "[dir]/[name].[ext]",
           },
         },
-        
       },
     },
   ],
