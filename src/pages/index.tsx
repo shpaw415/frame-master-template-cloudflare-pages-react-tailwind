@@ -52,7 +52,6 @@ export default function HomePage() {
           </div>
         </div>
       </header>
-
       {/* Features Section */}
       <section className="py-24 bg-slate-900/50 border-y border-slate-800/50">
         <div className="container mx-auto px-4">
@@ -114,7 +113,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* Get Started Section */}
       <section id="get-started" className="py-32 relative">
         <div className="container mx-auto px-4 text-center">
@@ -135,7 +133,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* Tech Stack Section */}
       <section className="py-20 border-t border-slate-800">
         <div className="container mx-auto px-4 text-center">
@@ -161,7 +158,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* Footer */}
       <footer className="py-12 border-t border-slate-800 bg-slate-950">
         <div className="container mx-auto px-4 text-center">

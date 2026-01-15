@@ -4,9 +4,9 @@
   "version": "1.0.2",
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/react": "^19.2.7",
+    "@types/react": "^19.2.8",
     "@types/react-dom": "^19.2.3",
-    "wrangler": "^4.56.0",
+    "wrangler": "^4.59.2",
     "typescript": "^5.9.3"
   },
   "dependencies": {
@@ -20,7 +20,8 @@
     "react-dom": "^19.2.3"
   },
   "scripts": {
-    "dev": "NODE_ENV=development bun --hot frame-master start",
-    "build": "NODE_ENV=production bun frame-master build"
+    "dev": "NODE_ENV=development bun frame-master start",
+    "build": "NODE_ENV=production bun frame-master build",
+    "build:dev": "NODE_ENV=development bun frame-master build"
   }
 }
